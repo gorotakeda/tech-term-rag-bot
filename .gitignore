@@ -1,4 +1,33 @@
-.env
-get-pip.py
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
 venv/
+ENV/
+
+# 環境変数
+.env
+
+# ベクトルストア
+chroma_db/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ログ
+*.log
+
+# キャッシュ
+.cache/
+.pytest_cache/
+
+get-pip.py
